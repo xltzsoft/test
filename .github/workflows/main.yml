@@ -35,12 +35,12 @@ jobs:
       env:
         SSH_PRIVATE: ${{ secrets.SSH_PRIVATE }}
         GIT_NAME: xltzsoft
-        GIT_EMAIL: xltz@stzo.cn
+        GIT_EMAIL: xltzblog@163.com
       run: |
         mkdir -p ~/.ssh/
         echo "$SSH_PRIVATE" | tr -d '\r' > ~/.ssh/id_rsa
         chmod 600 ~/.ssh/id_rsa
         ssh-keyscan github.com >> ~/.ssh/known_hosts
-        git config --global user.name "$GIT_NAME"
-        git config --global user.email "$GIT_EMAIL"
+        git config --global user.name "xltzsoft"
+        git config --global user.email "xltzblog@163.com"
         yarn run hexo deploy
