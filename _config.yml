@@ -104,5 +104,5 @@ theme: fluid
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/xltzsoft/jz
+  repo: git@github.com:xltzsoft/jz.git
   branch: master
