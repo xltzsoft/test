@@ -359,7 +359,7 @@ footer:
   # 页脚第一行文字的 HTML，建议保留 Fluid 的链接，用于向更多人推广本主题
   # HTML of the first line of the footer, it is recommended to keep the Fluid link to promote this theme to more people
   content: '
-    <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a>
+    <a href="https://stzo.cn" target="_blank" rel="nofollow noopener"><span>xltzsoft</span></a>
     <i class="iconfont icon-love"></i>
     <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a>
   '
@@ -367,12 +367,12 @@ footer:
   # 展示网站的 PV、UV 统计数
   # Display website PV and UV statistics
   statistics:
-    enable: false
+    enable: true
 
     # 统计数据来源，如果使用 leancloud 需要设置 `web_analytics: leancloud` 中的参数；如果使用 busuanzi 可能会有请求失败的情况
     # Data source. If use leancloud, you need to set the parameter in `web_analytics: leancloud`
     # Options: busuanzi | leancloud
-    source: "busuanzi"
+    source: "leancloud"
 
     # 页面显示的文本，{}是数字的占位符（必须包含)，下同
     # Displayed text, {} is a placeholder for numbers (must be included), the same below
@@ -400,7 +400,7 @@ footer:
 index:
   # 首页 Banner 头图，可以是相对路径或绝对路径，以下相同
   # Path of Banner image, can be a relative path or an absolute path, the same on other pages
-  banner_img: https://p.pstatp.com/origin/fec20001f2f39d08a35f
+  banner_img: https://p.pstatp.com/origin/pgc-image/59373c185d3f4ea6b05801f1e47ab0b0
 
   # 头图高度，屏幕百分比
   # Height ratio of banner image
