@@ -400,7 +400,7 @@ footer:
 index:
   # 首页 Banner 头图，可以是相对路径或绝对路径，以下相同
   # Path of Banner image, can be a relative path or an absolute path, the same on other pages
-  banner_img: https://p.pstatp.com/origin/pgc-image/59373c185d3f4ea6b05801f1e47ab0b0
+  banner_img: https://vkceyugu.cdn.bspapp.com/VKCEYUGU-ab498c51-8871-421b-8e23-a43eaa306dff/a62edf39-26b1-418b-836c-d0f2c2adedcd.jpg
 
   # 头图高度，屏幕百分比
   # Height ratio of banner image
