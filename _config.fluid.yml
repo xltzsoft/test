@@ -688,7 +688,7 @@ valine:
 # A comment plugin with backend derived from Valine
 # See: https://waline.js.org/
 waline:
-  serverURL: https://waline-psi.vercel.app
+  serverURL: https://waline-sable.vercel.app
   placeholder: 说点什么
   path: window.location.pathname
   avatar: retro
